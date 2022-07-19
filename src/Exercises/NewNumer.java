@@ -12,7 +12,7 @@ public class NewNumer extends Display {
     }
 
     private void setInput(Display display) {
-        input = display.getInt("Ingrese el numero: ", new Limit(0, 100));
+        input = display.getInt("Escriba el numero: ", new Limit(0, 100));
     }
 
     public String getNewNumber() {
