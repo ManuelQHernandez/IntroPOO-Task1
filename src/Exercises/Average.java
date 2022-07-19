@@ -12,7 +12,7 @@ public class Average extends Display {
 
     private void setInput(Display display) {
         input1 = display.getInt("Escriba el numero uno: ", new Limit(0, 100));
-        input2 = display.getInt("Ingrese el numero dos: ", new Limit(0, 100));
+        input2 = display.getInt("Escriba el numero dos: ", new Limit(0, 100));
         input3 = display.getInt("Ingrese el numero tres: ", new Limit(0, 100));
     }
 
