@@ -56,7 +56,7 @@ public class Menu {
                display.printTitleMessage("Resultado: " + rn.getRandomNumber());
                 break;
             default:
-                display.printTitleMessage("Gracias! por participar");
+                display.printTitleMessage("Gracias!! por participar");
                 break;
         }
     }
